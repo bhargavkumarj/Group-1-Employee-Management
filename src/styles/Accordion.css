@@ -1,0 +1,98 @@
+/* components/Accordion.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../assets/background1.jpg'); /* Replace with the path to your image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Arial', sans-serif; /* Set a fallback font-family */
+  
+}
+
+.page-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(180, 175, 175, 0.6)
+  
+}
+
+.accord-container {
+  width: 60%; /* Adjust the width as needed */
+  max-width: 600px; /* Set a maximum width if necessary */
+  margin-bottom: 200px;
+}
+
+.accordion {
+  width: 100%;
+  border: 3px solid #aba9a9; /* Border style for the entire accordion */
+  border-radius: 5px; /* Add rounded corners for a nicer look */
+}
+  
+  
+  .title {
+    background-color: #73aa7a;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    text-align: left;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%; /* Set the width to 100% initially */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    /* margin-bottom: 5px; Add some space between titles */
+  }
+  
+  .title::after {
+    content: '\2212'; /* Unicode character for minus sign */
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    font-style: italic;
+  }
+  
+  .title.collapsed::after {
+    content: '\002B'; /* Unicode character for plus sign */
+  }
+  
+  .title:hover {
+    background-color: #878080;
+  }
+  
+  .content {
+    display: none;
+    padding: 10px;
+    border: 2px solid #191b1b;
+    background-color: #adaaaa;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(240, 155, 155, 0.1);
+    font-size: 16px;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    position: relative; /* Position relative for absolute positioning */
+  }
+  
+  .content.active {
+    display: block;
+  }
+  
+  .content-row {
+    display: flex;
+  }
+  
+  .content-column {
+    flex: 1;
+    margin-left: 50px;
+  }
+  
+  .content-column:not(:last-child) {
+    
+    padding-right: 10px; /* Adjust padding as needed */
+  }
+  
+  

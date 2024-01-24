@@ -1,0 +1,73 @@
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* 100% of the viewport height */
+  
+}
+
+.form-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: Black;;
+  text-align: center;
+}
+
+.login-form {
+  width: 300px; /* Adjust as needed */
+}
+
+.form-table {
+  width: 100%;
+}
+
+.form-table label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.form-table input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff; /* Set your desired button color */
+  color: #ffffff; /* Set your desired text color */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Set your desired hover color */
+}
+.form-div{
+  background-color: #ffffff;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 4%;
+  padding-left: 4%;
+  border-radius: 15px;
+  /* filter: blur(8px); */
+}
+
+.fadeIn{
+  padding: 5%;
+  border-radius: 5px;
+  
+}
+ 
+.fourth{
+  padding: 5%;
+  border-radius: 5px;
+  background-color: #086db5;
+}

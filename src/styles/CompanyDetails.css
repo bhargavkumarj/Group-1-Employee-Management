@@ -1,0 +1,65 @@
+/* styles/CompanyDetails.css */
+
+.companyDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white; /* Background color for the whole container */
+  width: 100%;
+  height: 100vh;
+  margin-left: -15px;
+  background-image: url('../assets/background1.jpg');
+  margin-top: -20px;
+  
+}
+
+.companycont {
+  flex: 1;
+  padding-right: 20px;
+  /* background-color: #ffffff;  */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+  
+}
+
+.companycont h1 {
+  color: #333333; /* Text color for the main heading */
+  text-align: center;
+  font-size: 40px;
+  margin-top: 55px;
+}
+
+.companycont div {
+  margin-bottom: 20px;
+}
+
+.compAddr h3,
+.compPhone h3,
+.compEmail h3,
+.compTime h3 {
+  color: #007bff; /* Heading color for address, phone, email, and timings */
+  /* margin-left: 10px; */
+  text-align: left;
+  /* margin: 35px; */
+  margin-left: 50px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.compAddr p,
+.compPhone p,
+.compEmail p,
+.compTime p {
+  color: #555555; /* Text color for address, phone, email, and timings */
+  text-align: left;
+  margin-left: 50px;
+  font-size: 18px;
+  
+}
+
+.people-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Rounded corners for the image */
+}

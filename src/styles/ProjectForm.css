@@ -1,0 +1,64 @@
+.projectForm {
+  /* max-width: 800px; */
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  background-color: #f7f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projectContainer{
+  background-image: url('https://i.pinimg.com/originals/e0/d6/6a/e0d66a03fdf7fecce02b8b76e141d325.jpg');
+
+}
+
+.ProjectLabel {
+  /* display: block; */
+  text-align: left;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333; /* Adjust color based on your design */
+}
+
+.projectName,
+.projectManager,
+.startDate,
+.endDate,
+.projectStatus,
+.budget {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.projectStatus {
+  cursor: pointer;
+}
+
+.projectButton {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.projectButton:hover {
+  background-color: #45a049;
+}
+.projectHeading{
+  color: rgb(217, 77, 77);
+  font-weight: bold;
+  font-size: 30px;
+}

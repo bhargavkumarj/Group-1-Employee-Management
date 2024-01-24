@@ -1,0 +1,56 @@
+/* src/styles/ProjectTable.css */
+
+.projectTableContainer {
+    overflow: auto;
+    /* margin: 20px; */
+    max-height: 400px;
+    margin: 10px;
+    margin-top: 15px;
+  }
+  
+  .projectTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .projectTable thead {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .projectTable th,
+  .projectTable td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .projectTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .projectTable tbody tr:hover {
+    background-color: #d6e0e2;
+  }
+  
+  .projectTable .update-button,
+  .projectTable .delete-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .projectTable .delete-button {
+    background-color: #f44336;
+  }
+  

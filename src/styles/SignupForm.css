@@ -1,0 +1,75 @@
+/* src/styles/SignupForm.css */
+
+.signup-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../assets/background-black.jpg'); /* Add the background image property here */
+}
+
+.empForm {
+  width: 300px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.empLabel {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.empBox {
+  width: 100%;
+  padding: 8px;
+  margin-top: 3px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Adjusted styles for radio buttons */
+.radio-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Vertical alignment adjustment */
+}
+
+.radio-label {
+  margin-right: 15px; /* Adjust the spacing between radio buttons */
+  color: #333;
+}
+
+.radio-label input {
+  width: 16px; /* Adjusted width for smaller radio buttons */
+  height: 16px; /* Adjusted height for smaller radio buttons */
+  margin-right: 5px; /* Adjust the spacing between the radio button and label */
+}
+
+.empButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.empButton:hover {
+  background-color: #45a049;
+}
+
+.empHeading {
+  text-align: center;
+  color: #2196F3;
+}
