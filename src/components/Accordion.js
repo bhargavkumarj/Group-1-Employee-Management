@@ -1,9 +1,14 @@
 // components/Accordion/Accordion.js
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles/Accordion.css';
 
 const Accordion = ({ items }) => {
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  useEffect(() => {
+    // Set "Personal Details" as active by default
+    setActiveIndex(0);
+  }, []);
 
   const onTitleClick = (index) => {
     setActiveIndex(index === activeIndex ? null : index);
